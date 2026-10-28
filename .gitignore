@@ -1,0 +1,33 @@
+# --- Estado local del harness (por máquina / por sesión) ---
+.claude/settings.local.json
+.claude/summary/
+.claude/audit/
+.claude/lessons/*.local.md
+
+# --- Secretos y entorno ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# --- Sistema operativo ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Dependencias y builds ---
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# --- Logs y temporales ---
+*.log
+tmp/
+.tmp/
